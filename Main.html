@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/Assets/images/icon/favicon.ico" type="image/icon">
+    <!---CSS--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--script-->
+    <script src="/JS/cart.js"></script>
+    <script src="/JS/main.js"></script>
+
+
+    <title>Sinag Website</title>
+  </head>  
+  <body>
+    
+    <!-----------------Navbar----------------->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <a class="navbar-logo" href="#">
+            <img
+              src="/Assets/images/Nav-Side-Footer Logo/navbarlogo.png"
+              width="100vw"
+              height="auto"
+              style="
+                filter: invert(93%) sepia(8%) saturate(213%) hue-rotate(9deg)
+                  brightness(93%) contrast(90%);"></a>
+              <div class="menu">
+                <ul class="list-menu">
+                  <li><a href="#home">HOME</a></li>
+                  <li><a href="#prod">PRODUCTS</a></li>
+                  <li><a href="#gallery">GALLERY</a></li>
+                  <li><a href="#about">ABOUT US</a></li>
+                </ul>
+              </div>
+              
+              <div class="login-cart">
+                    <div class="cart">
+                      <div class="total-quantity" id="totalQuantityElement">0</div>
+                      <a href="/HTML/cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>  
+                    <div class="loginbtn">
+                      <a href="/HTML/LoginReg.html" class="loginbtn-popup">LOGIN</a>
+                    </div>
+               </div>
+              
+             <button class="sidebar-btn" ><i class="fa-solid fa-bars"></i></button>       
+
+       <!-----------------Sidebar----------------->
+
+              <div class="sidebarmenu">
+                 <div class="sidebar-content">
+                      <div class="sidebar-logo">
+                        <img src="/Assets/images/Nav-Side-Footer Logo/sidebarlogo.png" 
+                        width="170vw"
+                        height="auto"
+                        style="
+                        filter: invert(93%) sepia(8%) saturate(213%) hue-rotate(9deg)
+                          brightness(93%) contrast(90%);">
+                      </div>
+                      <ul class="sidebar-list">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#prod">PRODUCTS</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="/HTML/LoginReg.html" class="loginbtn">LOGIN</a></li>
+                      </ul>
+                    </div>
+                    <div class="sidebar-close"> 
+                      <button class="close-button"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+              </div> 
+            </div>        
+         </nav>
+    <!-----------------End of Navbar----------------->
+    <!-----------------End of Navbar----------------->
+    
+    
+    <!-----------------Home Page----------------->
+
+        <section id="home" class="home-page">
+          <div class="home-container">
+             <div class="circle"></div>
+              <div class="home-page-design">
+                <div class="home-content">
+                  <h1>Discover SINAG: Your Premier Destination for Stylish Tumblers!</h1>
+                  <p>
+                    With SINAG, you'll find the perfect blend of functionality and
+                    elegance in our range of tumblers, designed to elevate your everyday
+                    hydration experience.
+                  </p>
+                  <a href="#prod" class="explorebtn">Explore Tumblers</a>
+                </div>
+                <div class="home-image">
+                  <img src="/Assets/images/home-page-image/sinag5.PNG" alt="" width="420px" height="auto">
+                </div>
+              </div>
+         </div>
+        </section>
+        <!-----------------End of Home Page----------------->
+
+        <!-----------------Products----------------->
+
+        <section id="prod" class="prodpage">
+          <div class="product-content">          
+              <div class="prod-title">
+                <h1>PRODUCT CATALOG</h1>
+              </div>
+              <div class="products-container">
+                <div class="product" data-name="p=1">
+                  <div class="prodcard">
+                    <img src="/Assets/images/products/sinaghandysip.jpg" alt="">
+                    <h1>Sinag Bottle Silicone Protective Boot 21 oz, 22oz & Handy Sip Series</h1>
+                          <div class="price-rate">
+                            <div class="price">&#8369; 1,299</div>
+                            <div class="stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                              <span>( 127 )</span>
+                            </div>
+                          </div>
+                  
+                  <div class="buy-add-button">
+                    <a href="" class="prodbutton" id="buyNowBtn">Buy Now</a>
+                    <a href="" class="prodbutton" id="addToCartBtn">Add to Cart</a>
+                  </div>
+                 </div> 
+                </div>
+
+              <div class="product" data-name="p=2">
+                <div class="prodcard">
+                  <img src="/Assets/images/products/sinaginsu-22oz.jpg" alt="">
+                  <h1>NEW! Sinag Insulated Stainless Steel Bottle PH 22oz with Wide Mouth Lid</h1>
+                  <div class="price-rate">
+                    <div class="price">&#8369; 799</div>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <span>( 53 )</span>
+                    </div>
+                  </div>
+                  <div class="buy-add-button">
+                    <a href="" class="prodbutton" id="buyNowBtn">Buy Now</a>
+                    <a href="" class="prodbutton" id="addToCartBtn">Add to Cart</a>
+                  </div>
+                </div>  
+              </div>
+                
+              <div class="product" data-name="p=3">
+                  <div class="prodcard">
+                  <img src="/Assets/images/products/strawlid-insu-bottles.jpg" alt="">
+                  <h1>Straw Lid with handle for 21oz Insulated Bottles</h1>
+                  <div class="price-rate">
+                    <div class="price">&#8369; 108</div>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <span>( 82 )</span>
+                    </div>
+                  </div>
+                  <div class="buy-add-button">
+                    <a href="" class="prodbutton" id="buyNowBtn">Buy Now</a>
+                    <a href="" class="prodbutton" id="addToCartBtn">Add to Cart</a>
+                  </div>
+                </div>  
+              </div>
+                
+              <div class="product" data-name="p=4">
+                <div class="prodcard">
+                  <img src="/Assets/images/products/flexstrawlid.jpg" alt="">
+                  <h1>Flex Straw Lid for 22oz, 32 oz and 40 oz</h1>
+                  <div class="price-rate">
+                    <div class="price">&#8369; 120</div>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <span>( 65 )</span>
+                    </div>
+                  </div>
+                  <div class="buy-add-button">
+                    <a href="" class="prodbutton" id="buyNowBtn">Buy Now</a>
+                    <a href="" class="prodbutton" id="addToCartBtn">Add to Cart</a>
+                  </div>
+                </div> 
+              </div>
+                
+              <div class="product" data-name="p=5">
+                <div class="prodcard">
+                  <img src="/Assets/images/products/sportytwistcap.jpg" alt="">
+                  <!-- <div class="prod-name-desc"> -->
+                  <h1>Sinag Bottle Sporty Twist Cap for 32 and 40 oz</h1>
+                  <!-- </div> -->
+                  <div class="price-rate">
+                    <div class="price">&#8369; 190</div>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <span>( 110 )</span>
+                    </div>
+                  </div>
+                  <div class="buy-add-button">
+                    <a href="" class="prodbutton" id="buyNowBtn">Buy Now</a>
+                    <a href="" class="prodbutton" id="addToCartBtn">Add to Cart</a>
+                  </div>
+                </div>  
+              </div>
+                
+              <div class="product" data-name="p=6">
+                <div class="prodcard">
+                  <img src="/Assets/images/products/boot32-40oz.jpg" alt="">
+                  <h1>Sinag Bottle Silicone Protective Boot for 32/40 oz (bottle not included)</h1>
+                  <div class="price-rate">
+                    <div class="price">&#8369; 120</div>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <span>( 105 )</span>
+                    </div>
+                  </div>
+                  <div class="buy-add-button">
+                    <a href="" class="prodbutton" id="buyNowBtn">Buy Now</a>
+                    <a href="" class="prodbutton" id="addToCartBtn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+           </div> 
+        </section>
+      
+
+
+        <!-----------------Gallery----------------->
+
+        <section id="gallery" class="gallerypage">
+          <div class="gallery-content">
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+              <div class="gallery-title">
+                <h1>GALLERY</h1>
+              </div>
+              <!---Photos--->
+              <div class="pictures">
+                <div class="pic-card">
+                  <img src="/Assets/images/gallery/1.JPG" alt="">
+                </div>
+              
+
+                <div class="pic-card">
+                  <img src="/Assets/images/gallery/2.JPG" alt="">
+                </div>
+             
+                <div class="pic-card">
+                  <img src="/Assets/images/gallery/3.JPG" alt="">
+                </div>
+            
+                <div class="pic-card">
+                  <img src="/Assets/images/gallery/4.JPG" alt="">
+                </div>
+            
+                <div class="pic-card">
+                  <img src="/Assets/images/gallery/5.JPG" alt="">
+                </div>
+              
+                <div class="pic-card">
+                  <img src="/Assets/images/gallery/6.JPG" alt="">
+                </div>
+              </div>
+          </div> 
+        </section>
+
+        <!-----------------About Us----------------->
+        
+        <section id="about" class="aboutsection" >
+          <div class="about-page">    
+            <div class="about-title">
+              <h1>ABOUT US</h1>
+              <div class="about-content">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing  elit. 
+                    Dolore aliquam nemo ipsa, repudiandae labore deleniti illum doloribus error, 
+                    molestiae est laboriosam voluptate eos aliquid accusantium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Dolore aliquam nemo ipsa, repudiandae labore deleniti illum doloribus error, 
+                    molestiae est laboriosam voluptate eos aliquid accusantium! 
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing  elit. 
+                    Dolore aliquam nemo ipsa, repudiandae labore deleniti illum doloribus error, 
+                    molestiae est laboriosam voluptate eos aliquid accusantium.
+                    Dolore aliquam nemo ipsa, repudiandae labore deleniti illum doloribus error, 
+                    molestiae est laboriosam voluptate eos aliquid accusantium.
+                  </p>
+                </div>
+              </div>
+          </div>  
+        </section>
+
+
+        <!-----------------Footer----------------->
+        <footer>
+          <div class="footerpage">
+                <div class="footercontainer">
+                  <h4>STAY CONNECTED</h4>
+                      <div class="socmed">
+                          <a href="https://www.facebook.com/sinagclubmnl"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="https://www.instagram.com/sinagclubmnl/"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="https://www.tiktok.com/@sinagclubmnl"><i class="fa-brands fa-tiktok"></i></a>
+                          <a href="https://shopee.ph/sinagbottleph"><i class="fa-solid fa-store"></i></i></a>
+                        </div>
+                  </div>
+                      <div class="help-content">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Condition</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQs</a></li>
+                      </div>
+                            <div class="footer-logo">
+                              <img
+                              src="/Assets/images/Nav-Side-Footer Logo/footerlogo.png" width="15%" height="auto"
+                              style="
+                                filter: invert(93%) sepia(8%) saturate(213%) hue-rotate(9deg)
+                                  brightness(93%) contrast(90%);">
+                              <p> &copy; 2024</p>
+                            </div>
+                        </div> 
+          </footer>
+    
+
+
+
+    <!---script--->
+
+
+  </body>
+</html>
